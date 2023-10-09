@@ -1,0 +1,92 @@
+header{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+nav{ 
+    background-color: black;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color:red ;
+    font-style: italic;
+}
+
+img {
+    width: 250;
+    height: 250;
+    border: 3px solid;
+    float: left;
+    margin-left: 22;
+    margin-right: 22;
+}
+
+h2{
+    font-size: 28;
+    font-style: italic;
+}
+
+.aboutMe1{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.port{
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.port-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+iframe{
+    height: 800px;
+    width: 650; 
+
+}
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer content */
+    padding: 20px; /* Add some space around the content inside the footer */
+    text-align: center; /* Center-align the text within the footer */
+}
+
+footer h3 {
+    margin-bottom: 100px; /* Add a little space below the heading */
+}
+
+footer a {
+    color: #fff; /* Style links within the footer to be white */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underlines to links on hover */
+}
